@@ -59,6 +59,7 @@ function updateRecord(formData) {
     selectedRow.cells[3].innerHTML = formData.city;
 }
 // The deleteRow() method removes the row at the specified index from a table. Tip: Use the insertRow() to create and insert a new row
+
 function onDelete(td) {
     if (confirm('Are you sure to delete this record ?')) 
 	{
